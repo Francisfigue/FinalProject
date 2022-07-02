@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Kdam+Thmor+Pro&family=Mukta:wght@300&display=swap');
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.contenedor {
+  margin: 0px;
+  padding: 20px;
+  background-color: #f1f1f1;  
+  border-radius: 15%;
+}
+
+.card-img-top {
+  height: 250px;
+  width: 400px;
+}
+
+footer{
+  background-color: rgb(185, 196, 146);
+  font-size: large;
+  font-weight: 300;
+}
+
+h1 {color: purple;}
+
+.dropbtn {
+  background-color: #69a9dd;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(158, 158, 158);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #69a9dd;
+  
+}
+
+.flex-header {
+  display: flex;
+  align-content: space-around;
+}
+
+.hrcolor {
+  background-color: rgb(219, 238, 250);
+}
+
+.li-item {
+  background-color: rgb(158, 158, 158);
+  box-shadow: grey;
+}
+
+
+.row {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section#Logo {
+  visibility: hidden;
+}
+.ul-list {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 576px) {
+  section#Logo {
+    visibility: visible;
+  }
+}
+  @media screen and (max-width: 576px) {
+  p#fernet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  ul {}
+    
+}
+
+/* grilla 
+
+#wrapper {
+  display: grid;
+  grid-template-areas: 
+  "Logo Slogan Menu"
+  "Blog Blog Blog"
+  "Footer Footer Footer";
+  grid-template-columns: 3fr 8fr 300px;
+  grid-template-rows: auto auto 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 100%;
+  height: vh;
+}
+
+header {
+  grid-area: Slogan;
+}
+
+footer {
+  grid-area: Footer;
+}
+
+section#Logo {
+  grid-area: Logo;
+}
+
+section#Menu {
+  grid-area: Menu;
+}
+
+section#Blog {
+  grid-area: Blog;
+}
+
+.menulist {
+  display: inline-block;
+}
+
+*/
