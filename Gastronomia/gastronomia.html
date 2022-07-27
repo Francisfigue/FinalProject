@@ -4,101 +4,88 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> CBA</title>
-  <style>
-    * {margin: 0; padding: 0} 
-  </style>
-  <link rel="stylesheet" href="./estilos/Style.css" > 
-  <link rel="shortcut icon" href="imagenes/logo.png" />
+  <title> Visita Cordoba!</title>
+  <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+  <script src="../estilos/js/jquery.slim.min.js"></script>
+  <script src="../estilos/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../estilos/css/Style.css" >
+  <link rel="stylesheet" href="../estilos/css/main.css" >
+  <link rel="shortcut icon" href="../estilos/imagenes/arco de cordoba1.jpg" />
+  <meta name="description" content="Cordoba Argentina un lugar lleno actividades y placeres para recorrer tanto solo como en familia o pareja y amigos, con clima calido y grandes paisajes naturales, ofrece una experiencia de calidad en cualquier epoca del año">
+  <meta name="keywords" content="Cordoba, Argentina, Turismo, Comida, Gastronomia, Familia, Naturaleza, Fernet">
 </head>
-<body>
- <div id="wrapper">
-    <header id="Header">
-      <h1> CORDOBA </h1>
-      <p>La ciudad que te enamora</p>
-    </header>
-    <section id="Logo">
-      <img src="imagenes/mona2.jpg">
-    </section>
-
-    <section id="Menu">
-      <div class="contenedor">  
-        <ul class="menulist">
-          <li>
-            <a href="../index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="../que hacer/quehacer.html">Que hacer</a>
-          </li>
-          <li>
-            <a href="../Turismo/turismo.html">Turismo</a>
-          </li>
-          <li>
-            <a href="../Gastronomia/gastronomia.html">Gastronomia</a>
-          </li>
-          <li>
-           <a href="../Historia/historia.html">Historia</a>
-          </li>
-        </ul>  
-      </div> 
-    </section>      
-
-    <section id="Blog">   
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-    
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-    
-          <div class="item active">
-            <img src="la.jpg" alt="Los Angeles" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>Los Angeles</h3>
-              <p>LA is always so much fun!</p>
-            </div>
-          </div>
-    
-          <div class="item">
-            <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>Chicago</h3>
-              <p>Thank you, Chicago!</p>
-            </div>
-          </div>
-        
-          <div class="item">
-            <img src="ny.jpg" alt="New York" style="width:100%;">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
-          </div>
-      
-        </div>
-    
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+<body style="background-color: rgba(238, 238, 238, 0.596);">
+  <div class="row hrcolor container-fluid d-flex justify-content-between nowrap">
+    <div>
+      <header id="Slogan">
+        <h1> CORDOBA</h1>
+        <p id="fernet">La ciudad del fernet que te enamora</p>
+      </header>
     </div>
+    <div>
+      <section id="Logo">
+        <img src="../estilos/imagenes/mona.png" height="auto" width="200px">
+      </section>
+    </div>
+    <div class="d-flex flex-wrap align-content-center">            
+          <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+              <ul class="dropdown-content ul-list dropdown-menu-right">
+                <li class="li-item">
+                  <a href="/index.html">Inicio</a>
+                </li>
+                <li class="li-item">
+                  <a href="../que hacer/quehacer.html">Que hacer</a>
+                </li>
+                <li class="li-item">
+                  <a href="../Turismo/turismo.html">Turismo</a>
+                </li>
+                <li class="li-item">
+                  <a href="../Gastronomia/gastronomia.html">Gastronomia</a>
+                </li>
+                <li class="li-item">
+                <a href="../Historia/historia.html">Historia</a>
+                </li>
+              </ul> 
+            </div>
 
-    </section>
+    </div>      
+  </div>     
+  <h2 class="col-12">
+    Gastronomia
+  </h2> 
+<section>
+  <div class="row-gastronomia">
+    <img alt="Restaurant" src="./imagenes/comida.jpg" class="gridslot1 gridimg">
+    <img alt="Cerveza" src="./imagenes/cerveza.jpg" class="gridslot2 gridimg">
+    <img alt="Panaderia" src="./imagenes/masas finas.jpg" class="gridslot3 gridimg">
+    <img alt="pasteleria" src="./imagenes/torta.jpg" class="gridslot4 gridimg">
+    <img alt="Parrillada" src="./imagenes/parrilla.jpg" class="gridslot5 gridimg">
+    <img alt="otro" src="./imagenes/descarga.jpg" class="gridslot6 gridimg">
+  </div>
+</section>
 
     <footer>
-      Visitanos
-    </footer>
+      <div class="flex-logos">
+        <div>
+          <a href="https://facebook.com">
+          <img alt="logofacebook" src="../estilos/imagenes/facebook.png" class="social-logos">
+          </a>
+        </div>
+      <div class="social-logos">
+          <a href="https://twitter.com">
+            <img alt="logotwitter" src="../estilos/imagenes/twitter.png" class="social-logos">
+          </a>
+      </div>
+      <div class="social-logos">
+        <a href="https://instagram.com">
+        <img alt="logoinstagram" src="../estilos/imagenes/instagram.png" class="social-logos">
+      </a>
+      </div>
+    </div>   
+    <div style="text-align: end; font-weight: bold;"> Visitanos, entretenimiento asegurado!
+    </div>
+  </footer>
   </div>
 </body>
 </html>
