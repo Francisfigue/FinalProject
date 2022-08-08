@@ -8,10 +8,19 @@ body {
 .contenedor {
   margin: 0px;
   padding: 20px;
-  background-color: rgb(69, 123, 157);  
+  background-color: rgb(69, 123, 157,0.75);  
   border-radius: 15%;
   border: 10px;
   border-color: rgb(241, 250, 238, 0,75);
+}
+
+.contenedor:hover {
+  background-color: rgba(72, 80, 196, 0.856);
+  transition-duration: 1s;
+}
+
+.boton {
+  float: right;
 }
 
 .card  {
@@ -165,10 +174,6 @@ section#Logo {
   visibility: hidden;
 }
 
-section#Turismo {
-
-}
-
 section#quehacer {
   display: flex;
   justify-content: space-around;
@@ -179,8 +184,10 @@ section#quehacer {
   height: 30px;
 }
 
-#Slogan {
+Section#Slogan {
   padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .sleep-video {
   margin: 5px;
@@ -198,9 +205,3 @@ section#quehacer {
     visibility: visible;
   }
 }
-  @media screen and (max-width: 576px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
